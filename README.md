@@ -10,9 +10,9 @@ Key Features:
 
 Assambling:
 
-GPIO 13 - Button 1, speed up
-GPIO 14 - Button 2, speed down
-GPIO 15 - PWM, motor control
+* GPIO 13 - Button 1, speed up
+* GPIO 14 - Button 2, speed down
+* GPIO 15 - PWM, motor control
 
 Power supply: Here I used 12v 12.5A 150W PSU. Lipo 3S is recommended. 
 
