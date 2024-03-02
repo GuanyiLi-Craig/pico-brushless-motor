@@ -1,6 +1,6 @@
 # Brushless Motor Controller with Raspberry Pi Pico
 
-The Brushless Motor Controller project aims to create a versatile and user-friendly solution for controlling brushless motors A2212/15T 930KV using the Raspberry Pi Pico microcontroller, Hobbywing Kkywalker 30A ESC and two buttons. By leveraging the power and flexibility of the Raspberry Pi Pico, combined with simple input mechanisms, this project offers an accessible and customizable motor control solution for various applications.
+The Brushless Motor Controller project aims to create a versatile and user-friendly solution for controlling brushless motors A2212/15T 930KV using the Raspberry Pi Pico microcontroller, Hobbywing Skywalker 30A ESC and two buttons. By leveraging the power and flexibility of the Raspberry Pi Pico, combined with simple input mechanisms, this project offers an accessible and customizable motor control solution for various applications.
 
 Key Features:
 
@@ -14,7 +14,14 @@ GPIO 13 - Button 1, speed up
 GPIO 14 - Button 2, speed down
 GPIO 15 - PWM, motor control
 
-Power supply: Here I used 12v 12.5A 150W PSU. Lipo is recommended. 
+Power supply: Here I used 12v 12.5A 150W PSU. Lipo 3S is recommended. 
+
+Wire:
+
+
+
+
+
 
 
 Overall, the Brushless Motor Controller project combines the power of the Raspberry Pi Pico microcontroller with the simplicity of button inputs to create a versatile and customizable motor control solution. Whether used for hobby projects, educational purposes, or prototyping applications, this project offers an exciting opportunity to explore the world of brushless motor control with ease and flexibility.
