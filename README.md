@@ -18,10 +18,14 @@ Power supply: Here I used 12v 12.5A 150W PSU. Lipo 3S is recommended.
 
 Wire:
 
-![Wire](https://github.com/GuanyiLi-Craig/pico-brushless-motor/blob/main/wire.png?raw=true)
+![Wire](https://github.com/GuanyiLi-Craig/pico-brushless-motor/blob/main/static/wire.png?raw=true)
+
+Assembled: 
+
+![Assembled](https://github.com/GuanyiLi-Craig/pico-brushless-motor/blob/main/static/photo.jpg?raw=true)
 
 
-![Assembled](https://github.com/GuanyiLi-Craig/pico-brushless-motor/blob/main/photo.jpg?raw=true)
+Left button to increase the speed while right button to decrease the speed. 
 
 
 Overall, the Brushless Motor Controller project combines the power of the Raspberry Pi Pico microcontroller with the simplicity of button inputs to create a versatile and customizable motor control solution. Whether used for hobby projects, educational purposes, or prototyping applications, this project offers an exciting opportunity to explore the world of brushless motor control with ease and flexibility.
