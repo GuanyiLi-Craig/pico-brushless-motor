@@ -25,11 +25,6 @@ pwmOutput.freq(int(frequency))
 # Set initial duty 
 duty = 4000
 
-# define function for PWM generation
-def pwmGenerate(duty_cycle):
-    duty_cycle = duty_cycle
-    pwmOutput.duty_u16(duty_cycle)
- 
 duty_cycle = duty_cycle_min
 # generate the PWM signal with variable duty cycle 
 while True:
@@ -37,18 +32,15 @@ while True:
         duty = duty + 50
         time.sleep(0.5)
 
-
     if button_2.value():
         duty = duty - 50
         time.sleep(0.5)
         
-
     # duty cycle in integer
     # check user input for discrepancy
     if duty_cycle >= duty_cycle_min and duty_cycle <= duty_cycle_max and duty_cycle != duty:
         duty_cycle = duty
-        print(duty)
-        pwmGenerate(duty_cycle)
+        pwmOutput.duty_u16(duty_cycle)
     elif duty < duty_cycle_min:
         duty = duty_cycle_min
     elif duty > duty_cycle_max:
